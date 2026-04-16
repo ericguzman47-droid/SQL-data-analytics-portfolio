@@ -6,6 +6,7 @@ Focused on solving business problems through data.
 
 ## Projects
 - Payment & Arrears Analysis (In Progress)
+- Importing Locations (In Progress)
 - Form to SQL Pipeline (Coming Soon)
 - Data Cleaning Project (Coming Soon)
 - SQL Optimization (Coming Soon)
