@@ -1,16 +1,23 @@
 # Payment & Arrears Analysis
 
-## Objective
-Analyze customer payment behavior to identify:
-- On-time payments
+## Business Problem
+Companies need to track customer payments to identify:
 - Late payments
-- Customers in arrears
+- Outstanding balances
+- Risky customers
 
-## Tools Used
-- SQL Server
+## Solution
+Developed SQL logic to classify payments into:
+- On Time
+- Late
+- In Arrears
 
-## Status
-In Progress
+## Sample Logic
+Used CASE statements to determine payment status based on due date and payment date.
+
+## Next Steps
+- Add KPI calculations
+- Build Power BI dashboard
 
 CREATE TABLE CustomerPayments (
     CustomerID INT,
