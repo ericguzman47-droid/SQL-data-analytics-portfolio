@@ -36,6 +36,9 @@ INSERT INTO CustomerPayments VALUES
 (4, 'Sarah Johnson', 1004, '2024-06-12', '2024-06-27', '2024-06-27', 700.00),
 (5, 'James Brown', 1005, '2024-06-15', '2024-06-30', '2024-07-10', 650.00);
 
+-- Calculate outstanding balances and classify payment behavior
+-- This logic simulates real-world accounts receivable tracking
+
 SELECT 
     CustomerID,
     CustomerName,
