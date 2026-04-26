@@ -11,3 +11,37 @@ Analyze customer payment behavior to identify:
 
 ## Status
 In Progress
+
+CREATE TABLE CustomerPayments (
+    CustomerID INT,
+    CustomerName VARCHAR(100),
+    InvoiceID INT,
+    InvoiceDate DATE,
+    DueDate DATE,
+    PaymentDate DATE,
+    Amount DECIMAL(10,2)
+);
+
+INSERT INTO CustomerPayments VALUES
+(1, 'John Smith', 1001, '2024-06-01', '2024-06-15', '2024-06-14', 500.00),
+(2, 'Maria Lopez', 1002, '2024-06-05', '2024-06-20', '2024-06-25', 300.00),
+(3, 'David Chen', 1003, '2024-06-10', '2024-06-25', NULL, 450.00),
+(4, 'Sarah Johnson', 1004, '2024-06-12', '2024-06-27', '2024-06-27', 700.00),
+(5, 'James Brown', 1005, '2024-06-15', '2024-06-30', '2024-07-10', 650.00);
+
+SELECT 
+    CustomerID,
+    CustomerName,
+    InvoiceID,
+    DueDate,
+    PaymentDate,
+
+    CASE 
+        WHEN PaymentDate IS NULL THEN 'In Arrears'
+        WHEN PaymentDate <= DueDate THEN 'On Time'
+        WHEN PaymentDate > DueDate THEN 'Late'
+    END AS PaymentStatus
+
+FROM CustomerPayments;
+
+
