@@ -1,6 +1,6 @@
 # Eric Guzman – Data Analyst Portfolio
 
-## 🧾 About Me
+##  About Me
 Data Analyst with hands-on experience in **SQL Server, API integration, and data pipeline development**, currently working in a financial/operations environment. 
 
 I specialize in transforming complex datasets into actionable insights, with a strong focus on:
@@ -12,7 +12,7 @@ My work bridges the gap between **technical data processing and business decisio
 
 ---
 
-## 🛠️ Core Skills
+##  Core Skills
 - **SQL Server** (Advanced querying, CTEs, window functions, performance tuning)  
 - **Power BI** (Dashboard development, KPI tracking, data visualization)  
 - **Data Modeling** (Relational schema design, normalization)  
