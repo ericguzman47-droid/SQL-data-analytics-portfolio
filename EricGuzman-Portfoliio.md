@@ -22,7 +22,7 @@ My work bridges the gap between **technical data processing and business decisio
 
 ---
 
-##-- Projects
+##-- **Projects**
 
 ### 1.  Payment & Arrears Analysis
 **Goal:** Identify customers in arrears and uncover revenue risks  
