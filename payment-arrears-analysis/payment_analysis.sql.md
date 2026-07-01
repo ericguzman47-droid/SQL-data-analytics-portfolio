@@ -1,23 +1,49 @@
-# 📊 Payment Arrears & Revenue Leakage Analysis
+#  Payment Arrears & Revenue Leakage Analysis
 
 ## The Business Problem
-Organizations that rely on recurring payments (contracts, deeds, subscriptions) often face challenges tracking:
-- Customers in arrears
-- Partial or underpayments
-- Duplicate or incorrect renewals
+Financial operations teams frequently encounter situations where customer balances become inaccurate due to incomplete payments, duplicate transactions, or flawed renewal processes.
 
-These issues can lead to **revenue leakage, inaccurate reporting, and missed collection opportunities**.
+Common challenges include:
 
-This project analyzes customer payment behavior to identify **outstanding balances, inconsistencies, and financial risk**.
+Customers with unpaid or overdue invoices
+Partial payments that leave hidden outstanding balances
+Duplicate invoice generation
+Multiple payments recorded against a single invoice
+Renewals extending contract terms without generating additional charges
+Data inconsistencies created by complex relationships between invoices, payments, and contracts
+
+These issues affect more than accounting.
+
+They create downstream problems such as:
+
+inaccurate financial reporting
+reduced cash flow
+increased collection efforts
+poor forecasting
+hidden revenue leakage
+decreased confidence in operational reporting
+
+The objective of this project is to build SQL queries capable of identifying these issues before they become costly business problems.
 
 ---
 
 ##  Objectives
-- Identify customers with overdue balances
-- Compare **total billed vs total paid vs total owed**
-- Detect **partial payments and underpayments**
-- Flag anomalies in renewal behavior (e.g., duplicate renewals)
-- Quantify **revenue at risk**
+The analysis was designed to answer several key business questions.
+
+Financial Health
+Which customers currently have outstanding balances?
+How much revenue is currently unpaid?
+Which invoices are overdue?
+Payment Analysis
+Compare Total Billed vs Total Paid
+Calculate Remaining Balance
+Identify customers making partial payments
+Detect late payments
+Revenue Integrity
+Identify duplicate renewals
+Detect contracts whose duration exceeds billed periods
+Flag billing inconsistencies
+Quantify potential revenue leakage
 
 ---
 
