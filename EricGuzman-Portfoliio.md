@@ -24,7 +24,7 @@ My work bridges the gap between **technical data processing and business decisio
 
 ##-- **Projects**
 
-### 1.  Payment & Arrears Analysis
+### 1.  Payment Arrears & Revenue Leakage Analysis
 **Goal:** Identify customers in arrears and uncover revenue risks  
 
 - Built SQL logic to calculate **Total Billed, Total Paid, and Total Owed**  
