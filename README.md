@@ -36,7 +36,7 @@ My work bridges the gap between **technical data processing and business decisio
 
 ---
 
-### 2. [Form to SQL Data Pipeline](./Form_To_SQL_Pipeline)
+### 2. [Form to SQL Data Pipeline]([./Form_To_SQL_Pipeline](https://github.com/ericguzman47-droid/Form-to-SQL-data-pipeline))
 **Goal:** Simulate real-world data ingestion from web forms into a database.  
 
 - Designed a **relational SQL schema** for structured data storage.  
