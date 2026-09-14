@@ -36,7 +36,7 @@ My work bridges the gap between **technical data processing and business decisio
 
 ---
 
-### 2. [Form-to-SQL-data-pipeline]([./Form_To_SQL_Pipeline](https://github.com/ericguzman47-droid/Form-to-SQL-data-pipeline))
+### 2. [Form to SQL Data Pipeline](https://github.com/ericguzman47-droid/Form-to-SQL-data-pipeline)
 **Goal:** Simulate real-world data ingestion from web forms into a database.  
 
 - Designed a **relational SQL schema** for structured data storage.  
@@ -46,7 +46,6 @@ My work bridges the gap between **technical data processing and business decisio
 *Demonstrates: ETL pipelines, API integration, system design*
 
 ---
-
 ### 3. [Document Automation](./Document_Automation)
 **Goal:** Streamline operational workflows by automating the generation and processing of business documents.  
 
