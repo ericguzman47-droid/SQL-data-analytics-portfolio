@@ -46,14 +46,17 @@ My work bridges the gap between **technical data processing and business decisio
 *Demonstrates: ETL pipelines, API integration, system design*
 
 ---
-### 3. [Document Automation](./Document_Automation)
-**Goal:** Streamline operational workflows by automating the generation and processing of business documents.  
 
-- Replaced manual data entry processes with an automated scripting solution.
-- Parsed and extracted relevant text/data points for downstream database storage.
-- Reduced processing time and minimized human error in operational reporting.
+### 3. [Document Automation](https://github.com/ericguzman47-droid/automated-document-generator)
+
+**Goal:** Streamline operational workflows by automating the generation and processing of business documents.
+
+* Replaced manual data entry processes with an automated scripting solution.
+* Parsed and extracted relevant text/data points for downstream database storage.
+* Reduced processing time and minimized human error in operational reporting.
 
 *Demonstrates: Process automation, operational efficiency, scripting*
+
 
 ---
 
